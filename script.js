@@ -98,7 +98,7 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 document.querySelectorAll(
-    ".timeline-item, .gallery-grid img, .gallery-featured, .time-box, .letter-card, .detail-card"
+    ".timeline-item, .event-card, .gallery-grid img, .gallery-featured, .time-box, .letter-card, .detail-card"
 )
 
 .forEach(el => observer.observe(el));
